@@ -12,7 +12,7 @@ body{
     display: flex;
     flex-direction: column;
     font-family: 'Lato',sans-serif;
-    columns: #3a3a3a;
+    background-color: #3a3a3a;
     /*Generic project Styles*/
 }
 /*Header*/
@@ -24,6 +24,9 @@ header{
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline;
 }
 header a{
     text-decoration: none;
@@ -58,13 +61,26 @@ nav{
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
 }
+/*Nav toggle*/
+#nav-toggle:checked ~ nav{
+    display: block;
+    top: 100%;
+}
+#nav-toggle{
+    display: none;
+}
+.nav-toggle-label{
+    font-size: 2rem;
+}
 /*Main content*/
 main{
     background-color: lightblue;
     /*make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 /*footer*/
 footer{
     background-color: orange;
+    
 }
