@@ -119,6 +119,26 @@ main{
     padding: 5%;
     color: #3a3a3a;
 }
+#reasons{
+    width: 90%;
+    margin: 20px auto;
+}
+#reasons h2{
+    font-size: 280%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#benefits-phisical > div, #benefits-mental div{
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+div p{
+    padding: 0 20px;
+}
+div hr{
+    border-top: 1px solid #3a3a3a;
+    max-resolution: ;
+}
 /*Media quiry: tablet and larger(768px and up)*/
 @media screen and (min-width:768px){
     /*Header*/
