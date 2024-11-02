@@ -103,6 +103,22 @@ main{
 #cover-text > h2, #cover-text > h3{
     color: #ffffff;
 }
+#circle-cover-bg{
+    
+    background: url("../images/reasons-image.webp") no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /*make the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+#benefits-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /*footer*/
 
 #social-networks{
@@ -132,12 +148,12 @@ main{
     line-height: 20px;
     margin-bottom: 20px;
 }
-div p{
+#benefits p{
     padding: 0 20px;
 }
 div hr{
     border-top: 1px solid #3a3a3a;
-    max-resolution: ;
+    margin:0 5px ;
 }
 /*Media quiry: tablet and larger(768px and up)*/
 @media screen and (min-width:768px){
