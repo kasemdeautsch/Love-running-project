@@ -212,7 +212,7 @@ div hr{
     }
     
 }
-/*Media quiry: larg screens(120px and up)*/
+/*Media quiry: larg screens(1200px and up)*/
 
 @media screen and (min-width:1200px) {
     #benefits{
@@ -223,16 +223,20 @@ div hr{
     }
     #benefits > div{
         flex:1
-        
-        
+          
     }
     #benefits-mental{
         order: 1;
-        
+    
     }
     #benefits-image{
         order: 0;
-        
-        
     }
+    #benefits-mental > div{
+        align-self: flex-start;
+    }
+    #benefits-physical > div{
+        align-self: flex-end;
+    }
+}
 }
